@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio Cards</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Local stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Portfolio Cards</div>
+    <button id="themeToggle" aria-pressed="false">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Main card container -->
+  <main class="container">
+    <section class="cards">
+      <!-- Card 1 -->
+      <article class="card">
+        <img class="avatar" src="alishba.jpg" alt="Alishba Sikandar">
+        <h3>Alishba Sikandar</h3>
+        <p>Electronic Engineering graduate (QUEST, 2025). Learning front-end development with a focus on clean UI.</p>
+        <button class="view-btn" data-name="Alishba Sikandar">View Profile</button>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <img class="avatar" src="farah.jpg" alt="Profile 2">
+        <h3>Farah</h3>
+        <p>Front-end developer focused on responsive layouts and performance.</p>
+        <button class="view-btn" data-name="Farah">View Profile</button>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <img class="avatar" src="bilal.webp" alt="Profile 3">
+        <h3>Bilal</h3>
+        <p>UI/UX enthusiast with a love for minimal, user-friendly designs.</p>
+        <button class="view-btn" data-name="Bilal">View Profile</button>
+      </article>
+    </section>
+  </main>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>
